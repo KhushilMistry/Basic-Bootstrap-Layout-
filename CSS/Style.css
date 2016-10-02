@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+}
+
+/*  Carausal */
+.carousel-inner img {
+    width: 100%;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    .logo{
+        height: 30px;
+    }
+}
+
+/* Navigation Bars */
+
+.nav-tabs li a {
+    color: #777;
+}
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    background-color: #1e1e1e;
+    border: 0;
+    font-size: 13px !important;
+    letter-spacing: 4px;
+    width: 100%;
+}
+.navbar li a, .navbar .navbar-brand {
+    padding: 25px;
+    color: #ffffff !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #bbbbbb !important;
+    background-color: #1e1e1e !important;
+}
+.navbar-default{
+    border-color: transparent;
+}
+
+.logo{
+    margin-top: -13px;
+}
+
+/* Typography About Us */
+
+.padding{
+    padding: 20px;
+}
+
+.min_padding{
+    padding: 10px;
+}
+
+.heading{
+    letter-spacing: 2px;
+    padding: 15px 0px 15px 0px;
+    font-weight: lighter;
+    color: #303030;
+}
+.under_head{
+    background-color: black;
+    width: 100px;
+    padding-bottom: 3px;
+}
+.head {
+    color: black;
+}
+
+/* Typography  Fun Facts*/
+
+.info{
+    color: white;
+    background-color: #1c1c1c;
+}
+.under_info{
+    background-color: #ffffff;
+    width: 100px;
+    padding-bottom: 3px;
+}
+
+.info_heading{
+    letter-spacing: 2px;
+    padding: 15px 0px 15px 0px;
+}
+
+.icon i{
+    font-size: 50px;
+}
+
+/* Gallery*/
+.gallery{
+    margin: 0px;
+    padding: 0px;
+}
+
+.gallery img.image_icon:hover{
+    filter: grayscale(40%);
+    cursor: pointer;
+}
+
+.gallery p{
+    letter-spacing: 1px;
+    font-size: large;
+    text-align: center;
+    color: #dedede;
+}
+
+
+/* Page Links */
+
+a.white_link{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+a.black_link{
+    color: white;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+a.black_link:hover{
+    text-decoration: none;
+    color: #777;
+}
+
+a.white_link_2{
+    color:black;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/* Sponsers Image */
+.Sponsers img.sponser_icon{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.Sponsers img.sponser_icon:hover{
+    filter: grayscale(0%);
+}
+
+/* Contact Us*/
+
+/*Footer */
+
+.social i{
+    color: white;
+    padding: 10px;
+}
